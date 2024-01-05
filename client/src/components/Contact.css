@@ -1,0 +1,25 @@
+.form-container{
+    background-color:  #ffc107;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-container label{
+    font-size: 20px;
+}
+.form-container input{
+    height: 70px;
+}
+.form-container button{
+    background-color: #0dcaf0;
+    padding: 15px 30px ;
+    margin: 10px auto ;
+    border-radius: 10px;
+    font-size: 20px ;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+.form-container button:hover{
+    background-color: #15c4e7;    
+}

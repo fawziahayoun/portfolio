@@ -1,0 +1,63 @@
+
+
+.banner .tagline{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.banner .type{
+    font-size: 60px;
+    font-weight: bold;
+    color: #052c65;
+
+}
+.banner .type p{
+    color:#ffc107 ;
+}
+.banner .type p span{
+    color: #052c65;
+    font-size: 18px;
+    display: block;
+    margin: 10px;
+
+}
+
+.banner .text{
+    line-height: 1.8;
+}
+.banner .connect{
+    background-color:#0dcaf0;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 6px ;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #052c65;
+    border: none;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+.banner .connect:hover{
+    background-color: #15badc;
+
+
+}
+
+.banner .images img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-color:  #ffc107 #052c65   ;
+    border-width: 4px;
+    border-style: solid;
+    margin: auto;
+
+}
+@media (max-width:768px) {
+    .banner{
+        text-align: center;
+    }
+    
+}
